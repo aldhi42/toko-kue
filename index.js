@@ -166,5 +166,5 @@ function handleSubmit(event) {
   // Optionally, you can perform validation or other checks here
 
   // Redirect to home.html
-  window.location.href = "home.html"; // Replace <repository> with your actual repository name
+  window.location.href = "/toko-kue/home.html"; // Replace <repository> with your actual repository name
 }
