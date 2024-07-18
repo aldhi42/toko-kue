@@ -159,3 +159,12 @@ var swiper = new Swiper(".blogs-row", {
       },
     },
   });
+
+function handleSubmit(event) {
+  event.preventDefault(); // Prevent the default form submission
+
+  // Optionally, you can perform validation or other checks here
+
+  // Redirect to home.html
+  window.location.href = "/<repository>/home.html"; // Replace <repository> with your actual repository name
+}
